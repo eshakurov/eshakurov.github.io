@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТНС Энерго</title>
+    <link rel="icon" href="icons/logo.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="sidebar">
+          <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#333333"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Услуги</a></li>
+          <li><a href="#">Помощь</a></li>
+          <li><a href="#">О компании</a></li>
+      </ul>
+      <ul>
+          <li><a href="#"><img src="icons/logo.svg"><span>ТНС Энерго</span></a></li>
+          <li class="hideOnMobile"><a href="#">Главная</a></li>
+          <li class="hideOnMobile"><a href="#">Услуги</a></li>
+          <li class="hideOnMobile"><a href="#">Помощь</a></li>
+          <li class="hideOnMobile"><a href="#">О компании</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#333333"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+      </ul>
+  </nav>
+  </header>
+  <main class="main">
+    <div class="drop-section">
+      <img class="upload-file-icon"src="icons/upload-file.svg">
+      <div class="drop-container">
+        <span class="drop-txt">
+            Перетащите фото сюда<br>или
+        </span>
+        <input type="file" class="chooser">
+        <a class="choose-file-txt" href="#"><br>
+          Выберите файл
+        </a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="aboutus">
+        <h4>ТНС Энерго</h4>
+        <p>ТНС Энерго одна из крупнейших независимых энергосбытовых компаний России.</p>
+        <ul class="sci">
+          <li><a href="#"><img src="icons/vk.svg"></a></li>
+          <li><a href="#"><img src="icons/ok.svg"></a></li>
+          <li><a href="#"><img src="icons/tg.svg"></a></li>
+        </ul>
+      </div>
+      <div class="quicklinks">
+        <h4>Главная</h4>
+        <ul>
+          <li><a href="#">Онлайн-сервисы</a></li>
+          <li><a href="#">Договор энергоснабжения</a></li>
+          <li><a href="#">Расчеты за электроэнергию</a></li>
+        </ul>
+      </div>
+      <div class="quicklinks">
+        <h4>Услуги</h4>
+        <ul>
+          <li><a href="#">Стоимость услуг</a></li>
+          <li><a href="#">Бытовой сервис</a></li>
+          <li><a href="#">Наши партнеры</a></li>
+        </ul>
+      </div>
+      <div class="quicklinks">
+        <h4>Помощь</h4>
+        <ul>
+          <li><a href="#">Контакты</a></li>
+          <li><a href="#">Документы</a></li>
+          <li><a href="#">Вакансии</a></li>
+        </ul>
+      </div>
+      <div class="quicklinks">
+        <h4>О компании</h4>
+        <ul>
+          <li><a href="#">Позвонить</a></li>
+          <li><a href="#">Все вопросы</a></li>
+          <li><a href="#">Способы передачи показаний</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <div class="copyrightText">
+    <p>&copy;2024-2025 ТНС энерго. Все права защищены.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
